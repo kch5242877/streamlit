@@ -3,7 +3,8 @@ from openai import OpenAI
 import streamlit as st
 import time
 
-assistant_id = 'asst_Ml39YiIc0Wg7s0m3mP0Dwsac'
+assistant_id = st.secrets["asststant_id"]
+thread_id = st.secrets["thread_id"]
 
 with st.sidebar:
     st.link_button("더 좋은 서비스를 위해 후원하기", "https://toss.me/kimch8596")
