@@ -26,7 +26,7 @@ with st.sidebar:
         st.subheader(f"{thread_id}", divider="rainbow")
         st.info("새로운 스레드가 생성되었습니다")
 
-st.title("My ChatBot")
+st.title("AI 기획자")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "선생님한테 무엇이든 물어보세요~"}]
