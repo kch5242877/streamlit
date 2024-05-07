@@ -29,7 +29,7 @@ with st.sidebar:
 st.title("My ChatBot")
 
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "저는 문화기획자 입니다. 무엇이든 물어보세요!?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "저는 영덕문화관광재단에 대해서 뭐든알고 있습니다. 무엇이든 물어보세요!?"}]
 
 # print(f"st.session_state\n{st.session_state}")
 # print()
